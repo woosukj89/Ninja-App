@@ -1,2 +1,0 @@
-print "hellp" 
-print "goodbye"
