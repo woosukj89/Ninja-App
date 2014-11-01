@@ -15,7 +15,8 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button3"
         android:layout_marginTop="5dp"
-        android:text="Quit" />
+        android:onClick="QuitClick"
+        android:text="@string/Quit_Main" />
 
     <Button
         android:id="@+id/button3"
@@ -24,7 +25,8 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button2"
         android:layout_marginTop="5dp"
-        android:text="Options" />
+        android:onClick="OptionClick"
+        android:text="@string/Option_Main" />
 
     <Button
         android:id="@+id/button1"
@@ -32,7 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="New" />
+        android:onClick="NewClick"
+        android:text="@string/New_Main" />
 
     <Button
         android:id="@+id/button2"
@@ -41,7 +44,8 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="5dp"
-        android:text="Load" />
+        android:onClick="LoadClick"
+        android:text="@string/Load_Main" />
 
     <TextView
         android:id="@+id/textView1"
@@ -50,7 +54,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:text="Ninja List"
+        android:text="@string/Title_Main"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

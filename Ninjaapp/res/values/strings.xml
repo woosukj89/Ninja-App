@@ -14,4 +14,9 @@
 	<string name="NewListName">New List Name</string>
 	<string name="plus">+</string>
 	<string name="x">X</string>
+	<string name="New_Main">New</string>
+	<string name="Option_Main">Option</string>
+	<string name="Load_Main">Load</string>
+	<string name="Title_Main">Ninja App</string>
+	<string name="Quit_Main">Quit</string>
 </resources>
