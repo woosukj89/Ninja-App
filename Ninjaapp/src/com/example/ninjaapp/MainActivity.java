@@ -54,6 +54,6 @@ public class MainActivity extends ActionBarActivity {
 	
 	/** Called when the user clicks the Quit button */
 	public void QuitClick(View view) {
-	    // Do something in response to button
+	    // Do something in response to button .
 	}
 }
