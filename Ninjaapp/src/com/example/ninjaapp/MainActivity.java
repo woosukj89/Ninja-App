@@ -42,14 +42,14 @@ public class MainActivity extends ActionBarActivity {
 	
 	/** Called when the user clicks the Load button */
 	public void LoadClick(View view) {
-		Intent intent = new Intent(this, InventoryView.class);
-		startActivity(intent);
+//		Intent intent = new Intent(this, InventoryView.class);
+//		startActivity(intent);
 	}
 	
 	/** Called when the user clicks the Option button */
 	public void OptionClick(View view) {
-		Intent intent = new Intent(this, OptionsPage.class);
-		startActivity(intent);
+//		Intent intent = new Intent(this, OptionsPage.class);
+//		startActivity(intent);
 	}
 	
 	/** Called when the user clicks the Quit button */
