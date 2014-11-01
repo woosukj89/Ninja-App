@@ -1,9 +1,11 @@
 package com.example.ninjaapp;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -30,5 +32,28 @@ public class MainActivity extends ActionBarActivity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	/** Called when the user clicks the New button */
+	public void NewClick(View view) {
+		Intent intent = new Intent(this, CurListActivity.class);
+		startActivity(intent);
+	}
+	
+	/** Called when the user clicks the Load button */
+	public void LoadClick(View view) {
+		Intent intent = new Intent(this, InventoryView.class);
+		startActivity(intent);
+	}
+	
+	/** Called when the user clicks the Option button */
+	public void OptionClick(View view) {
+		Intent intent = new Intent(this, OptionsPage.class);
+		startActivity(intent);
+	}
+	
+	/** Called when the user clicks the Quit button */
+	public void QuitClick(View view) {
+	    // Do something in response to button
 	}
 }
